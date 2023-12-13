@@ -20,6 +20,7 @@ class _CityScreenState extends State<CityScreen> {
         ),
       ),
       child: Scaffold(
+        resizeToAvoidBottomInset: true,
         backgroundColor: Colors.transparent,
         body: SafeArea(
           child: Column(
